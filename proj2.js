@@ -5,6 +5,7 @@ class Animal {
        this.age=age;
        this.breed=breed;
     }
+
 }
  
 function bark(){
@@ -13,7 +14,7 @@ function bark(){
     return woofey.name+" "+"is barking at just "+woofey.age+" years.";
 }
  
-function sleep(sleepHours,maxSleep=8){
+function sleep(sleepHours,maxSleep){
  
     var animal = new Animal("mario","","");
  
@@ -29,3 +30,7 @@ function sleep(sleepHours,maxSleep=8){
     }
     
 }
+console.log(bark())
+
+console.log(sleep(9,8));
+
